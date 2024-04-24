@@ -1,7 +1,27 @@
 @charset "UTF-8";
+
 /* reset */
-body, h1, h2, h3, h4, h5, h6, p, address,
-ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+address,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+img,
+form,
+table,
+tr,
+th,
+td {
   margin: 0;
   padding: 0;
   border: none;
@@ -13,20 +33,41 @@ ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
   border-collapse: collapse;
 }
 
-textarea { font-size: 100%; vertical-align:middle;}
-img { border-style: none; display: block; }
-hr { display: none; }
-em{font-style: normal}
-input{line-height:auto;vertical-align:middle;}
-strong.more{color:#c30}
-a{text-decoration: none;}
-
-html {
-
+textarea {
+  font-size: 100%;
+  vertical-align: middle;
 }
 
+img {
+  border-style: none;
+  display: block;
+}
+
+hr {
+  display: none;
+}
+
+em {
+  font-style: normal
+}
+
+input {
+  line-height: auto;
+  vertical-align: middle;
+}
+
+strong.more {
+  color: #c30
+}
+
+a {
+  text-decoration: none;
+}
+
+html {}
+
 body {
-  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
 }
 
 * {
@@ -38,3 +79,39 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
+html {
+  height: 100%;
+}
+body {
+  height: 100%
+}
+div {
+  height: 50%;
+  width: 43%;
+  border-width: 50px;
+  border-color: black;
+}
+
+.bk {
+  margin-top: 0.5%;
+  margin-left: 0.2%;
+  color: white;
+  background-color: black;
+  padding-top: 3%;
+}
+
+.wh {
+  height: 49%;
+  margin-left: 0.2%;
+  color: black;
+  background-color: white;
+  padding-top: 3%;
+  border-width: 1px;
+  border-style: solid;
+}
+
+ div>p {
+  padding-top: 5%;
+  font-size: 1rem;
+}
+
