@@ -79,17 +79,12 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
-html {
+html, body {
   height: 100%;
-}
-body {
-  height: 100%
 }
 div {
   height: 50%;
-  width: 43%;
-  border-width: 50px;
-  border-color: black;
+  width: 40%;
 }
 
 .bk {
@@ -106,7 +101,7 @@ div {
   color: black;
   background-color: white;
   padding-top: 3%;
-  border-width: 1px;
+  border-width: 2px;
   border-style: solid;
 }
 
