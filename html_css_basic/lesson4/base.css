@@ -45,12 +45,12 @@ html, body{
   margin: 1% 20% 19%;
   width: 60%;
   height: 80%;
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
   display: flex;
 }
 .r, .b, .g{
-  width: 33%;
+  width: 33.33%;
   height: 100%;
 }
 .r {
@@ -61,10 +61,22 @@ html, body{
 }
 .g {
   background-color: green;
-  width: 34%;
+  width: 33.34%;
 }
 .box, .box2, .box3{
-  width: 33.33%;
+  width: 20%;
   height: 10%;
   background-color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+.box{
+  margin: 50% 50%;
+}
+.box::before, .box::after{
+  gap: 5%;
+  width: 20%;
+  height: 10%;
+  background-color: white;
+
 }
