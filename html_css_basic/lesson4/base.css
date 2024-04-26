@@ -47,7 +47,11 @@ html, body{
   height: 80%;
   border-width: 2px;
   border-style: solid;
-
+  display: flex;
+}
+.r, .b, .g{
+  width: 33%;
+  height: 100%;
 }
 .r {
   background-color: red;
@@ -57,4 +61,10 @@ html, body{
 }
 .g {
   background-color: green;
+  width: 34%;
+}
+.box, .box2, .box3{
+  width: 33.33%;
+  height: 10%;
+  background-color: white;
 }
